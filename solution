@@ -1,0 +1,11 @@
+function cToF(celsius) {
+var F = (celsius * 1.8) + 32;
+console.log(celsius+'°C' + ' is '+ F + ' °F.');
+}
+
+function fToC(fahrenheit) {
+var C = (5/9) * (fahrenheit - 32);
+console.log(fahrenheit +'°F' + ' is' + C +'°C');
+}
+cToF(60);
+fToC(45);
